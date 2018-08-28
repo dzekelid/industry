@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-openc
 x-kinRank: "9"
 x-alexaRank: "53526"
 tags: Industry
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/industry/master/_listings/opencorporates/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: OpenCorporates - Industry Codes  Code Scheme ID
+  x-api-slug: industry-codescode-scheme-id-get
+  description: nThis call returns further details about the code_scheme, together
+    with the list of industry codes associated with it
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
+  baseURL: ://api.opencorporates.com/v0.4/
+  tags: SMS, Enterprise, Finance, Business Intelligence, Corporate Data, Business,
+    My API Stack, API LIfeyclessss, Target, Business, Stack Network, Technology, SaaS,
+    General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/industry/master/_listings/opencorporates/industry-codescode-scheme-id-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://opencage.api.gallery.streamdata.io
